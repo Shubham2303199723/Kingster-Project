@@ -719,6 +719,8 @@
     display: flex;
     width: max-content;
     height: max-content;
+    justify-content: center;
+    align-items: center;
 }
 .donation-events-main{
     display: flex;
@@ -773,6 +775,7 @@
     color: white;
 }
 .donation-events-main-2{
+    width: max-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -920,6 +923,65 @@
 .donation-events-view-events a:visited{
     text-decoration: none;
 }
+.newsletter-main-div{
+    width:500px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+.newsletter-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(rgb(3,37,76,0.8),rgb(3,37,76,0.9),rgb(3,37,76)),url(tips-for-easier-studying.jpg);
+    background-repeat: no-repeat;
+    background-position: start;
+}
+.newsletter-div-img{
+    padding-top: 80px;
+}
+.newsletter-div-shortpara{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+.newsletter-div-shortpara h2{
+    color: white;
+}
+.newsletter-div-shortpara h3{
+    color: rgb(160, 155, 155);
+    padding-top: 20px;
+}
+.newsletter-div-email{
+    padding-top: 80px;
+}
+.newsletter-div-email input{
+    background-color: rgb(3, 37, 76);
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.newsletter-div-subs{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.newsletter-div-subs a:link{
+    text-decoration: none;
+}
+.newsletter-div-subs a{
+    color: white;
+    width: 300px;
+    height: 60px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 
 
 
