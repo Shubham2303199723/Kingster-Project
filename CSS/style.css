@@ -1,0 +1,944 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 0%;
+}
+.navbar{
+    background-color:rgb(3, 37, 76);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+.navcont ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: large;
+    padding-right: 20px;
+}
+.navcont ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.navcont ul li a:hover{
+    color: rgba(0, 255, 0, 0.712);
+}
+.cont{
+    font-size: xx-small;
+    color:beige;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 10px;
+}
+.sup{
+    background-color: rgb(73, 201, 130);
+    padding: 3%;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.navwht{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navwht img{
+    height: 50px;
+    display: flex;
+    padding: 5px;
+}
+.navwht ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+}
+.navwht ul li a{
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+    float: left;
+    transition: 1s;
+    white-space: nowrap;
+}
+.navwht ul li img{
+    float: left;
+}
+.navwht ul li a:hover{
+    color:rgb(0, 255, 0);
+}
+.search{
+   height: 20px;
+   width: 30px;
+   margin-top: 10px;
+}
+.a{
+    background-image:linear-gradient(to right,rgba(3, 37, 76),rgb(3, 37, 76,0.5),rgb(3, 37, 76,0.0)), url("1200px-Winter_Palace_Panorama_3.jpg");
+    width: 100%;
+    height: 500px;
+    color:rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    background-size: cover;
+    background-position: center;
+}   
+.underimage{
+    padding: 50px;
+}
+.underimage h6 a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    transition: 1s;
+}
+.underimage h1{
+    background-color: rgba(3, 37, 76, 0.813);
+    padding: 10px;
+    font-family: Bacasime Antique;
+    font-display: swap;
+    font-size: 75px;
+}
+.underimage h6{
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.undbox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+.underimage h6 a:hover{
+    color: rgba(3,37,76);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    height: max-content;
+}
+.afd{
+    width: max-content;
+    height: max-content;
+    margin: -30px;
+}
+.afd ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.afd ul li{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    font-size: larger;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.afd ul li img{
+    display: flex;
+    margin: 2%;
+}
+.afd ul li div h1{
+    color: rgb(3, 37, 76);
+    font-size: large;
+    white-space: nowrap;
+}
+.afd ul li div p{
+    display: flex;
+    font-size: small;
+    white-space: nowrap;
+    color: rgb(97, 97, 97);
+    font-weight: bold; 
+}
+.back-img{
+    display: flex;
+    flex-wrap: wrap;
+}  
+.i{
+    background-image:linear-gradient(rgba(3, 36, 76, 0.748),rgba(3, 36, 76, 0.748),rgba(3, 36, 76, 0.748)),url(varun-pyasi-AZ4y6Bc3qeI-unsplash.jpg);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    justify-content: center;
+   }
+.back-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 400px;
+    padding: 20px;
+}
+.back-img h1{
+    color: white;
+    font-size: x-large;
+    padding-bottom: 5px;
+}
+.back-img h3{
+    color: green;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.back-img h5{
+    color: rgb(183, 178, 178);
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.backimg-box{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(46, 132, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+    font-weight: 750;
+    transition: 1s;
+}
+.backimg-box:hover{
+    background-color: black;
+}
+.backimg-box a{
+    color: white;
+}
+.back-img a:link{
+    text-decoration: none;
+}
+.back-img a:visited{
+    text-decoration: none;
+}
+.about-kings-box{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.about-kings{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(3, 37, 76);
+    background-image:linear-gradient(rgb(3,37,76,0.619),rgba(3, 37, 76, 0.619),rgb(3,37,76,0.619)),url(StudentLife_StudentGroup_Walking_Outdoor_GettyImages-1165524880.webp);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-kings-abt{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    justify-content: center;
+    color: rgb(81, 164, 81);
+    font-size: 25px;
+    padding-top: 20px;
+}
+.about-kings-motive{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    justify-content: left;
+    align-items: start;
+    width: max-content;
+    height: max-content;
+}
+.about-kings-p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(199, 197, 197);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: x-large;
+    line-height: 35px;
+}
+.about-kings-p2{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;color: white;
+    display: flex;
+    justify-content: left;
+    font-size: x-large;
+    line-height: 35px;
+}
+.about-kings-read-more{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: left;
+}
+.about-kings-read-more a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    transition: 0.3s;
+}
+.about-kings-read-more a:hover{
+    color: green;
+}
+.about-kings-read-more a:link{
+    text-decoration: none;
+}
+.about-kings-read-more a:visited{
+    text-decoration: none;
+}
+.about-kings-links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(3, 31, 63);
+    width: 100%;
+    height: max-content;
+    align-self: baseline;
+}
+.about-kings-links-div{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-kings-links-div-p{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.about-kings-links-div-p-p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(209, 205, 205);
+    font-size: larger;
+    display: flex;
+}
+.about-kings-links-div-learn-more a{
+    color: green;
+    transition: 0.3s;
+}
+.about-kings-links-div-learn-more a:link{
+    text-decoration: none;
+}
+.about-kings-links-div-learn-more a:hover{
+    color: white;
+}
+.kings-news{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: max-content;
+    flex-wrap: wrap;
+}
+.kings-news-div{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.kings-news-main-read-head{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: auto;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+.kings-news-head{
+    color: rgb(3, 37, 76);
+    font-weight: 900;
+    font-size: 30px;
+}
+.kings-news-head-read a{
+    color: rgb(48, 136, 48);
+}
+.kings-news-head-read a:link{
+    text-decoration: none;
+}
+.kings-news-head-read a:visited{
+    text-decoration: none;
+}
+.kings-news-main-div{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;  
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    flex-wrap: wrap;
+}
+.kings-news-1{
+    height: max-content;
+    width: max-content;
+}
+.kings-news-1-date{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(143, 141, 141);
+    font-weight: bold;
+}
+.kings-news-1-heading{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.kings-news-1-heading a{
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-size: x-large;
+}
+.kings-news-1-heading a:link{
+    text-decoration: none;
+}
+.kings-news-1-heading a:visited{
+    text-decoration: none;
+}
+.kings-news-1-heading a:hover{
+    color: green;
+}
+.kings-news-2-main-div{
+    display: flex;
+}
+.kings-news-2{
+    display: flex;
+    height: max-content;
+    width: max-content;
+}
+.kings-news-2-main-div-date-head{
+    display: flex;
+    flex-direction: column;
+}
+.kings-news-2-image{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kings-news-2-date{
+    margin: auto;
+    color: rgb(143, 141, 141);
+    font-weight: bold;
+}
+.kings-news-2-heading a:link{
+    text-decoration: none;
+}
+.kings-news-2-heading a:visited{
+    text-decoration: none;
+}
+.kings-news-2-heading a:hover{
+    color: green;
+}
+.kings-news-2-heading{
+    margin: auto;
+}
+.kings-news-2-heading a{
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+.kings-news-3-main-div{
+ display: flex;   
+}
+.kings-news-3{
+    display: flex;
+    height: max-content;
+    width: max-content;
+}
+.kings-news-3-image{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kings-news-3-main-div-date-head{
+    display: flex;
+    flex-direction: column;
+}
+.kings-news-3-heading a{
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+.kings-news-3-heading a:link{
+    text-decoration: none;
+}
+.kings-news-3-heading a:visited{
+    text-decoration: none;
+}
+.kings-news-3-heading a:hover{
+    color: green;
+}
+.kings-news-3-date{
+    margin: auto;
+    color: rgb(143, 141, 141);
+    font-weight: bold;
+}
+.kings-news-3-heading{
+    margin: auto;
+}
+.kings-news-4-main-div{
+    display: flex;
+}
+.kings-news-4{
+    display: flex;
+    height: max-content;
+    width: max-content;
+}
+.kings-news-4-image{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kings-news-4-main-div-date-head{
+    display: flex;
+    flex-direction: column;
+}
+.kings-news-4-heading a{
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+.kings-news-4-heading a:link{
+    text-decoration: none;
+}
+.kings-news-4-heading a:visited{
+    text-decoration: none;
+}
+.kings-news-4-heading a:hover{
+    color: green;
+}
+.kings-news-4-date{
+    margin: auto;
+    color: rgb(143, 141, 141);
+    font-weight: bold;
+}
+.kings-news-bottom{
+    display: flex;
+    background-color: rgb(240, 237, 237);
+    height: max-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.kings-news-bottom-main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.kings-news-bottom-img{
+    padding-left: 25px;
+}
+.kings-news-bottom-news{
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.kings-news-main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+.kings-news-right-div-main{
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.kings-right-div-first{
+    background-image:linear-gradient(rgb(3, 37, 76,0.7),rgb(3, 37, 76,0.7),rgb(3, 37, 76,0.7)),url(Junagarh-Fort-Bikaner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.kings-news-right-Qlinks{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+    height: 100px;
+    width: 100%;
+}
+.kings-right-div-6links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+}
+.kings-news-right-div-6links a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+}
+.kings-news-right-div-6links a:link{
+    text-decoration: none;
+}
+.kings-news-right-div-6links a:visited{
+    text-decoration: none;
+}
+.kings-news-right-div-6links div{
+    padding: 20px;
+    width: 100%;
+}
+.kings-news-right-Appltorgistr{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(81, 172, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.kings-news-right-Appltorgistr-div{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+.kings-news-right-Appltorgistr-div a{
+    width: auto;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}    
+.kings-news-right-Appltorgistr-div a:link{
+    text-decoration: none;
+}
+.kings-news-right-Appltorgistr-div a:visited{
+    text-decoration: none;
+}
+.program-bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.program-bottom-1{
+    background-image:linear-gradient(rgb(3, 37, 76,0.7),rgb(3, 37, 76,0.7),rgb(3, 37, 76,0.7)),url(program-3_study.jpg);
+    background-position: center;
+    padding: 60px;
+    text-align: center;
+    width: fit-content;
+}
+.program-bottom-1-1{
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+.program-bottom-1-2{
+    color: white;
+    font-size: large;
+    padding-top: 20px;
+}
+.program-bottom-2{
+    background-color: rgb(3, 37, 76);
+    color: white;
+    padding: 60px;
+    text-align: center;
+    width: fit-content;
+}
+.program-bottom-2-1{
+    font-weight: bold;
+    font-size: larger;
+}
+.program-bottom-2-2{
+    color: white;
+    font-size: large;
+    padding-top: 20px;
+}
+.program-bottom-3{
+    background-image: linear-gradient(rgb(3, 37, 76,0.7),rgb(3, 37, 76,0.7),rgb(3, 37, 76,0.7)),url(program-3_scholarship.jpg);
+    background-position : center;
+    background-repeat: no-repeat;
+    padding: 60px;
+    text-align: center;
+    width: fit-content;
+}
+.program-bottom-3-1{
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+.program-bottom-3-2{
+    color: white;
+    font-size: large;
+    padding-top: 20px;
+}
+.donation-events{
+    display: flex;
+    width: max-content;
+    height: max-content;
+}
+.donation-events-main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: max-content;
+    height: max-content;
+}
+.donation-events-main-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: 10px;
+}
+.donation-events-main-1-2{
+    color: rgb(3, 37, 76);
+    font-size: xx-large;
+    padding-top: 15px;
+}
+.donation-events-main-1-3{
+    color: grey;
+    font-size: large;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.donation-events-main-1-4{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(64, 151, 64);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.8s;
+}
+.donation-events-main-1-4:hover{
+    background-color: black;
+}   
+.donation-events-main-1-4 a:link{
+    text-decoration: none;
+}
+.donation-events-main-1-4 a:visited{
+    text-decoration: none;
+}
+.donation-events-main-1-4 a{
+    color: white;
+}
+.donation-events-main-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.donation-events-main-2-1{
+    color: rgb(3, 37, 76);
+    font-weight: bolder;
+    font-size: x-large;
+}
+.donation-events-main-2-2{
+    display: flex;
+    padding-top: 30px;
+}
+.donation-events-main-2-2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.donation-events-main-2-2-1-1{
+    color: green;
+    font-weight: bold;
+}
+.donation-events-main-2-2-1-2{
+    padding-top: 10px;
+    color: rgb(3, 37, 76);
+    font-weight: bold;
+}
+.donation-events-main-2-2-1-3{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin-top: 10px;
+}
+.donation-events-main-2-2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+.donation-events-main-2-2-2-1{
+    font-weight: bolder;
+    color: rgb(3, 37, 76);
+    font-size: large;
+}
+.donation-events-main-2-2-2-2{
+    color: green;
+    padding-top: 15px;
+    font-size: small;
+}
+.donation-events-main-2-3{
+    display: flex;
+    padding-top: 30px;
+}
+.donation-events-main-2-3-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.donation-events-main-2-3-1-1{
+    color: green;
+    font-weight: bold;
+}
+.donation-events-main-2-3-1-2{
+    padding-top: 10px;
+    color: rgb(3, 37, 76);
+    font-weight: bold;
+}
+.donation-events-main-2-3-1-3{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin-top: 10px;
+}
+.donation-events-main-2-3-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+.donation-events-main-2-3-2-1{
+    font-weight: bolder;
+    color: rgb(3, 37, 76);
+    font-size: large;
+}
+.donation-events-main-2-3-2-2{
+    color: green;
+    padding-top: 15px;
+    font-size: small;
+}
+.donation-events-main-2-4{
+    display: flex;
+    padding-top: 30px;
+}
+.donation-events-main-2-4-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.donation-events-main-2-4-1-1{
+    color: green;
+    font-weight: bold;
+}
+.donation-events-main-2-4-1-2{
+    padding-top: 10px;
+    color: rgb(3, 37, 76);
+    font-weight: bold;
+}
+.donation-events-main-2-4-1-3{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    margin-top: 10px;
+}
+.donation-events-main-2-4-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+.donation-events-main-2-4-2-1{
+    font-weight: bolder;
+    color: rgb(3, 37, 76);
+    font-size: large;
+}
+.donation-events-main-2-4-2-2{
+    color: green;
+    padding-top: 15px;
+    font-size: small;
+}
+.donation-events-view-events{
+    padding-top: 50px;
+    color: rgb(3, 37, 76);
+    font-weight: bold;
+}
+.donation-events-view-events a:link{
+    text-decoration: none;
+}
+.donation-events-view-events a:visited{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
