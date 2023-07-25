@@ -780,6 +780,7 @@
     width: max-content;
     display: flex;
     flex-direction: column;
+    align-items: left;
     justify-content: space-between;
     justify-content: space-around;
     padding-left: 10px;
@@ -995,9 +996,120 @@
     flex-wrap: wrap;
 }
 .sponsers div{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+.bottom-kingster-about{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.bottom-kingster-about div{
+    padding-top: 20px;
+}
+.Kingster-address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+.bottom-kingster-img-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-small;
+    white-space: nowrap;
+    color: white;
+}
+.bottom-kingster-img-head h1{
+    padding-left: 10px;
+}
+.Kingster-address div h3{
+    font-size: large;
+    color: rgb(148, 145, 145);
+}
+.Kingster-address div h2{
+    color: white;
+    font-size: large;
+    padding-bottom: 15px;
+}
+.Kingster-address a{
+    color: white;
+}
+.Kingster-address a:link{
+    text-decoration: none;
+}
+.Kingster-address a:visited{
+    text-decoration: none;
+}
+.Kingster-address hr{
+    width: auto;
+    background-color: green;
+    height: 2px;
+    border: 1px solid green;
+}
+.bottom-kingster-headings{
+    color: white;
+}
+.bottom-kingster-headings h1{
+    padding-bottom: 20px;
+}
+.bottom-kingster-headings hr{
+    background-color: green;
+    width: auto;
+    height: 2px;
+    border: 1px solid green;
+}
+.bottom-campus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: start;
+    color: rgb(148, 145, 145);
+    font-size: x-large;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+.bottom-campus div:hover{
+    color: white;
+}
+.kingster-address-main{
+    padding-top: 20px;
+}
+.last-bottom{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    color: white;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-img{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    width: 20%;
+}
+.bottom-img img{
+    background-color: green;
+    transition: 0.8s;
+}
+.bottom-img img:hover{
+    background-color: white;
+}
+
 
 
 
