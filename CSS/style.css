@@ -1008,6 +1008,8 @@
     align-items: center;
     justify-content: space-evenly;
     justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 40px;
 }
 .bottom-kingster-about div{
     padding-top: 20px;
