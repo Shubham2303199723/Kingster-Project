@@ -1059,6 +1059,7 @@
 }
 .bottom-kingster-headings{
     color: white;
+    font-size: small;
 }
 .bottom-kingster-headings h1{
     padding-bottom: 20px;
@@ -1076,7 +1077,7 @@
     justify-content: space-between;
     align-items: start;
     color: rgb(148, 145, 145);
-    font-size: x-large;
+    font-size: large;
     transition: 0.5s;
     padding-top: 20px;
 }
@@ -1111,7 +1112,10 @@
 .bottom-img img:hover{
     background-color: white;
 }
+.copyright{
+    font-size: large;
 
+}
 
 
 
