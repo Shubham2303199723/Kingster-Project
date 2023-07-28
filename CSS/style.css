@@ -10,9 +10,14 @@
     height: auto;
     display: flex;
     justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     line-height: 30px;
+}
+.navcont{
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .navcont ul{
     display: flex;
@@ -24,13 +29,13 @@
 .navcont ul li a{
     color:aliceblue;
     text-decoration: none;
-    transition: 0.8s;
+    transition: 0.6s;
 }
 .navcont ul li a:hover{
     color: rgba(0, 255, 0, 0.712);
 }
 .cont{
-    font-size: xx-small;
+    font-size: large;
     color:beige;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
@@ -38,6 +43,7 @@
     justify-content: center;
     white-space: nowrap;
     padding: 10px;
+    padding-left: 30px;
 }
 .sup{
     background-color: rgb(73, 201, 130);
@@ -49,13 +55,20 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    height: 90px;
 }
 .navwht img{
     height: 50px;
     display: flex;
     padding: 5px;
+    padding-left: 30px;
+}
+.navwht-menu-list{
+    padding-right: 30px;
+    padding-left: 15px;
 }
 .navwht ul{
     display: flex;
@@ -63,14 +76,17 @@
     justify-content: space-around;
     align-items: center;
     gap: 8px;
+    flex-wrap: wrap;
 }
 .navwht ul li a{
-    font-size: smaller;
+    font-size: large;
     text-decoration: none;
-    color: black;
+    color: rgb(3, 37, 76);
     float: left;
-    transition: 1s;
+    transition: 0.6s;
     white-space: nowrap;
+    font-weight: bold;
+    
 }
 .navwht ul li img{
     float: left;
@@ -598,16 +614,17 @@
     height: 100px;
     width: 100%;
 }
-.kings-right-div-6links{
+.kings-news-right-div-6links{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
-    width: 100%;
     height: max-content;
+    width: fit-content;
+    white-space: nowrap;
 }
-.kings-news-right-div-6links a{
+.kings-news-right-div-6links div a{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -623,7 +640,6 @@
 }
 .kings-news-right-div-6links div{
     padding: 20px;
-    width: 100%;
 }
 .kings-news-right-Appltorgistr{
     width: 100%;
@@ -634,6 +650,7 @@
     align-items: center;
     padding-bottom: 16px;
     padding-top: 16px;
+    white-space: nowrap;
 }
 .kings-news-right-Appltorgistr-div{
     width: auto;
