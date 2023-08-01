@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about-backimg{
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.164),rgb(0, 0, 0)),url(1369486.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.about-backimg div{
+    padding-left: 50px;
+}
+.about-backimg p{
+    color: green;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.about-backimg h1{
+    color: white;
+    font-size: xx-large;
+    padding-bottom: 50px;
+}
+.kings-history{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+}
+.kings-histry{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: xx-large;
+    padding-top: 70px;
+    font-weight: bolder;
+    width: max-content;
+}
+.kings-history-article{
+    width: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kings-history-article p {
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: grey;
+    font-size: larger;
+}
+.kings-features{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: max-content;
+    background-image: linear-gradient(rgba(3, 37, 76, 0.795),rgba(3, 37, 76, 0.795),rgb(3,37,76,0.795)),url(1369486.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.kings-features-divs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.kings-features-divs h1{
+    font-size: x-large;
+    color: green;
+    padding-top: 25px;
+}
+.kings-features-divs p{
+    color: white;
+    font-size: large;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
