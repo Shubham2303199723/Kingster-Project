@@ -85,3 +85,72 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.about-faclities{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: auto;
+}
+.about-faclities-img{
+    width: 50%;
+}
+.about-faclities-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(245, 240, 240);
+    width: 50%;
+}
+.about-faclities-div img{
+    padding: 10px;
+}
+.about-faclities-div h1{
+    padding: 10px;
+}
+.about-faclities-div p{
+    font-size: larger;
+    color: grey;
+    padding: 10px;
+}
+.about-faclities-grad-img{
+    width: 50%;
+}
+.about-faclities-grad-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(245, 240, 240);
+    width: 50%;
+}
+.about-faclities-grad-div img{
+    padding: 10px;
+}
+.about-faclities-grad-div h1{
+    padding: 10px;
+}
+.about-faclities-grad-div p{
+    font-size: larger;
+    color: grey;
+    padding: 10px;
+}
+.about-faclities-power-img{
+    width: 50%;
+}
+.about-faclities-power-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(245, 240, 240);
+    width: 50%;
+}
+.about-faclities-power-div img{
+    padding: 10px;
+}
+.about-faclities-power-div h1{
+    padding: 10px;
+}
+.about-faclities-power-div p{
+    font-size: larger;
+    color: grey;
+    padding: 10px;
+}
